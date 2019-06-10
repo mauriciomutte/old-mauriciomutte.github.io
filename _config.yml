@@ -1,0 +1,14 @@
+title: Maurício Mutte
+email: mauriciomutte.mm@gmail.com
+description: >-
+  Maurício Mutte é um jovem de 17 anos que está sempre em busca de mais conhecimento 
+  e que ama tudo sobre tecnologia, marketing digital e programação
+baseurl: ""
+url: ""
+twitter_username: mauriciomutte
+github_username:  mauriciomutte
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
