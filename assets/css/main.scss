@@ -82,3 +82,47 @@ body {
     letter-spacing: 1px;
   }
 }
+
+// HOME BLOG
+.homeBlog {
+  margin: 3em 0;
+  text-align: center;
+
+  &__title {
+    font-size: 34px;
+    margin-bottom: 1em;
+  }
+
+  &__post {
+    text-decoration: none;
+    margin: 2em auto;
+    max-width: 350px;
+    vertical-align: top;
+
+    &__a {
+      display: table;
+      text-decoration: none;
+      width: 100%;
+    }
+
+    &__image {
+      display: block;
+      border-radius: 10px;
+      height: auto;
+      width: 100%;
+  }
+
+    &__title {
+      color: #000;
+      font-size: 21px;
+      margin: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 640px) {
+    &__post {
+      display: inline-block;
+      margin: 2em;
+    }
+  }
+}
