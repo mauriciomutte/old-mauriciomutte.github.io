@@ -18,7 +18,7 @@ layout: default
     <h2 class="homeBlog__title">Últimas publicações</h2>
     {% for post in site.posts limit:3 %}
       <div class="homeBlog__post">
-        <a href="#" class="homeBlog__post__a">
+        <a href="{{ post.url }}" class="homeBlog__post__a">
           <img src="/assets/images/bg.jpg" alt="Post image" class="homeBlog__post__image">
           <h3 class="homeBlog__post__title">{{ post.title }}</h3>
         </a>
