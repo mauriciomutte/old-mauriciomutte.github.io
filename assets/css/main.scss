@@ -1,6 +1,7 @@
 // COLORS
 $white: #fff;
 
+// GERAL
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+//HEADER
 .header {
   background-color: #ccc;
   background-image: url('../images/bg.jpg');
@@ -50,6 +52,7 @@ body {
 	}
 }
 
+// NAV
 .nav {
   text-align: center;
   padding: 1.5em 0;
