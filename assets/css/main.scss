@@ -16,37 +16,50 @@ body {
   background-color: #ccc;
   background-image: url('../images/bg.jpg');
   background-size: cover;
-  background-position: bottom;
-  height: 100vh;
+  background-position: center;
   text-align: center;
 
-  &__content {
+  &__home {
     margin: 15vh 0;
+
+    &__title {
+      color: $white;
+      font-size: 40px;
+      margin: 1em 0;
+      line-height: 1.3;
+    }
+  
+    &__stacks {
+      &__img {
+        height: 80px;
+        margin: 10px;
+        width: auto;
+      }
+    }
   }
 
-  &__title {
-    color: $white;
-    font-size: 40px;
-    margin: 1em 0;
-    line-height: 1.3;
-  }
+  &__page {
+    margin: 5vh 0;
 
-  &__stacks{
-    &__img {
-      height: 80px;
-      margin: 10px;
-      width: auto;
+    &__title {
+      color: $white;
+      font-size: 52px;
+      font-size: 64px;
+      letter-spacing: 6px;
+      text-transform: uppercase; 
     }
   }
 
   @media only screen and (min-width: 640px) {
-    &__title {
-      font-size: 55px;
-    }
-
-    &__stacks{
-      &__img {
-        margin: 0 20px;
+    &__home {
+      &__title {
+        font-size: 55px;
+      }
+  
+      &__stacks {
+        &__img {
+          margin: 0 20px;
+        }
       }
     }
 	}
