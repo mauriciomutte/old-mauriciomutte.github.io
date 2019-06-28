@@ -80,7 +80,24 @@ body {
 
 .footer {
   background-color: #161223;
-  padding: 4em 6em;
-  color: #fff; }
+  color: #fff;
+  padding: 1em 6em;
+  text-align: center; }
+  .footer ul {
+    list-style: none; }
+    .footer ul li {
+      margin: 10px 0; }
+    .footer ul a {
+      color: #ff8c39;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none; }
+  .footer__site, .footer__social {
+    margin: 3em; }
+    .footer__site__title, .footer__social__title {
+      color: #ccc;
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
 
 /*# sourceMappingURL=main.css.map */
