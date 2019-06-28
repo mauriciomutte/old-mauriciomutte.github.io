@@ -160,4 +160,14 @@ body {
       letter-spacing: 1px;
     }
   }
+
+  @media only screen and (min-width: 640px) {
+    padding: 2em 6em;
+
+    &__site,
+    &__social {
+      display: inline-block;
+      padding: 0 1em;
+    }
+  }
 }
