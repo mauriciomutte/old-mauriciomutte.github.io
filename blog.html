@@ -3,6 +3,12 @@ layout: page
 title: Blog
 ---
 
+<section class="categories">
+  <a href="#" class="categories__item">Javascript</a>
+  <a href="#" class="categories__item">Node.js</a>
+  <a href="#" class="categories__item">Dicas</a>
+  <a href="#" class="categories__item">Misc</a>
+</section>
 <section class="posts">
   {% for post in site.posts %}
     <div href="{{ post.url }}" class="posts__item" style="background-image: url('/assets/images/bg.jpg')">
