@@ -10,7 +10,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto;
+  margin: 4em auto;
   max-width: 1000px; }
   .posts__link {
     color: #fff; }
