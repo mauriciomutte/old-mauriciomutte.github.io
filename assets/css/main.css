@@ -15,36 +15,36 @@ body {
   .posts__link {
     color: #fff; }
   .posts__item {
+    background: no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+    box-sizing: border-box;
     color: #fff;
     height: 300px;
-    width: 300px;
     margin: 1em;
-    position: relative;
-    border-radius: 15px;
-    z-index: 0;
     overflow: hidden;
-    box-sizing: border-box;
-    background: no-repeat center center;
-    background-size: cover; }
+    position: relative;
+    width: 300px;
+    z-index: 0; }
   .posts__img {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    right: 0;
     bottom: 0;
     left: 0;
+    height: 100%;
     opacity: .9;
+    position: absolute;
+    right: 0;
+    top: 0;
     width: 100%;
-    height: 100%; }
+    z-index: -1; }
     .posts__img::before {
       content: "";
+      background-color: #000;
+      background-image: linear-gradient(234deg, #ff8c39 0%, #000 100%);
       border-radius: 15px;
       display: block;
-      width: 100%;
       height: 100%;
       opacity: 0.5;
-      background-color: #000;
-      background-image: linear-gradient(234deg, #ff8c39 0%, #000 100%); }
+      width: 100%; }
   .posts__title {
     bottom: 30%;
     font-size: 24px;
