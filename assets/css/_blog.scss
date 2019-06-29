@@ -78,3 +78,23 @@
     }
   }
 }
+
+.categories {
+  margin-top: 2em;
+  text-align: center;
+
+  &__item {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 20px;
+    display: inline-block;
+    color: $white;
+    background-color: #ff8c39;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 8px 0;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);;
+    text-decoration: none;
+    min-width: 130px;
+  }
+}
