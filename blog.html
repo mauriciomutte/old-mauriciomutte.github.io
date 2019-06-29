@@ -2,3 +2,22 @@
 layout: page
 title: Blog
 ---
+
+<section class="categories">
+  <a href="#" class="categories__item">Javascript</a>
+  <a href="#" class="categories__item">Node.js</a>
+  <a href="#" class="categories__item">Dicas</a>
+  <a href="#" class="categories__item">Misc</a>
+</section>
+<section class="posts">
+  {% for post in site.posts %}
+    <div href="{{ post.url }}" class="posts__item" style="background-image: url('/assets/images/bg.jpg')">
+      <a href="{{ post.url }}" class="posts__link">
+        <div class="posts__img"></div>
+        <h3 class="posts__title">{{ post.title }}</h3>
+        <span class="posts__date">{{ post.date | date_to_string }}</span>
+        <a href="/category/{{ post.categories }}" class="posts__category"><span class="posts__category__item">{{ post.categories }}</span></a>
+      </a>
+    </div>
+  {% endfor %}
+</section>
