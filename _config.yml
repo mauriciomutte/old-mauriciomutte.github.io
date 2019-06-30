@@ -10,4 +10,4 @@ twitter_username: mauriciomutte
 github_username:  mauriciomutte
 
 markdown: kramdown
-permalink: /:title/
+permalink: /:title
