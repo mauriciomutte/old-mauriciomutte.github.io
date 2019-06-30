@@ -91,6 +91,56 @@ body {
     text-decoration: none;
     min-width: 130px; }
 
+.post-header {
+  color: #fff;
+  box-shadow: 0 -20px 40px 15px rgba(0, 0, 0, 0.8);
+  height: 67vh;
+  position: relative;
+  text-align: center; }
+  .post-header .nav {
+    position: absolute;
+    top: 0;
+    width: 100%; }
+  .post-header__block {
+    min-width: 100%;
+    position: absolute;
+    top: 35%; }
+  .post-header__title {
+    font-size: 36px;
+    margin: 5px 0;
+    text-align: center; }
+  .post-header__category {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    margin: 20px auto;
+    padding: 3px 0;
+    text-decoration: none;
+    width: 100px; }
+  .post-header__img {
+    background: no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1; }
+    .post-header__img::before {
+      content: "";
+      background-color: #000;
+      background-image: linear-gradient(360deg, #ff8c39 -100%, #000 100%);
+      display: block;
+      height: 100%;
+      opacity: .9;
+      width: 100%; }
+  @media (min-width: 640px) {
+    .post-header__title {
+      font-size: 48px;
+      max-width: 100%;
+      padding: 0 20%; } }
+
 .post {
   margin: 3em 5%; }
   .post p {
