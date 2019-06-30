@@ -91,6 +91,41 @@ body {
     text-decoration: none;
     min-width: 130px; }
 
+.post {
+  margin: 3em 5%; }
+  .post p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    word-wrap: break-word;
+    margin: 0 0 1.3em 0; }
+  .post a, .post strong {
+    color: #ff8c39; }
+  .post ul {
+    margin: 0 0 1.5em 20px;
+    color: #ff8c39; }
+    .post ul p {
+      margin: 0; }
+  .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+    color: #ff8c39;
+    margin: 3px 0 5px; }
+  .post h2 {
+    font-size: 30px;
+    margin: 3px 0 20px; }
+  .post img {
+    border-radius: 5px;
+    height: auto;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  .post pre {
+    margin: 0 0 1.5em 0 !important; }
+  @media only screen and (min-width: 640px) {
+    .post {
+      margin: 3em 20%; }
+      .post p {
+        font-size: 18px; } }
+
 .header {
   background-color: #ccc;
   background-image: url("../images/bg.jpg");
