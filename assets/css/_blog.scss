@@ -19,8 +19,15 @@
     margin: 1em;
     overflow: hidden;
     position: relative;
+    transition: .2s;
     width: 300px;
     z-index: 0;
+
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 20px;
+      transform: translateY(-10px)
+    } 
+
   }
 
   &__img {
