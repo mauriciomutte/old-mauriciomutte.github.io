@@ -116,3 +116,11 @@
     }
   }
 }
+
+.comments {
+  margin: 4em 5% 5em;
+
+  @media (min-width: 640px) {
+    margin: 4em 20% 5em;
+  }
+}
