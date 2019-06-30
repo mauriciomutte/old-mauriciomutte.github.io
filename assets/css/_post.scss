@@ -1,0 +1,52 @@
+.post {
+  margin: 3em 5%;
+
+  p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    word-wrap: break-word;
+    margin: 0 0 1.3em 0;
+  }
+
+  a, strong {
+    color: #ff8c39;
+  }
+
+  ul {
+    margin: 0 0 1.5em 20px;
+    color: #ff8c39;
+
+    p {margin: 0;}
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #ff8c39;
+    margin: 3px 0 5px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin: 3px 0 20px;
+  }
+
+  img {
+    border-radius: 5px;
+    height: auto;
+    width: 100%;
+    box-shadow: 0 0 10px rgba($color: #000000, $alpha: .2)
+  }
+
+  pre {
+    margin: 0 0 1.5em 0 !important;
+  }
+
+  @media only screen and (min-width: 640px) {
+    margin: 3em 20%;
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
