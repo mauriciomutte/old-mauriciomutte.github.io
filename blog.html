@@ -11,7 +11,7 @@ title: Blog
 </section>
 <section class="posts">
   {% for post in site.posts %}
-    <div class="posts__item" style="background-image: url('/assets/images/bg.jpg')">
+    <div class="posts__item" style="background-image: url('{{ post.image }}')">
       <a href="{{ post.url }}" class="posts__link">
         <div class="posts__img"></div>
         <h3 class="posts__title">{{ post.title }}</h3>
