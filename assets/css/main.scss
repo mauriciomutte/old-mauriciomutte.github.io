@@ -123,9 +123,12 @@ body {
     }
 
     &__image {
+      background-color: #000;
+      box-shadow: 0 0 20px -5px rgba($color: #000000, $alpha: .6);
       display: block;
       border-radius: 10px;
       height: auto;
+      opacity: .9;
       width: 100%;
   }
 
