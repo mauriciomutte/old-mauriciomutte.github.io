@@ -236,7 +236,8 @@ body {
   margin: 3em 0;
   text-align: center; }
   .homeBlog__title {
-    font-size: 34px;
+    color: #ff8c39;
+    font-size: 40px;
     margin-bottom: 1em; }
   .homeBlog__post {
     text-decoration: none;
