@@ -4,7 +4,7 @@ title: "Qual distro linux escolher para programar?"
 date: 2018-10-08 19:17:00 -0200
 description: Eu vejo muitas pessoas querendo migrar pro Linux mas que se perdem com as tantas distros existentes atualmente, por isso, vou compartilhar minha breve experiência com Linux e tentar ajudar quem ainda tem dúvidas.
 categories: [Linux]
-image: /assets/img/qual-distro-linux-escolher-para-programar/main.jpg
+image: /assets/images/qual-distro-linux-escolher-para-programar/main.jpg
 ---
 
 Se você caiu de paraquedas nesse post, prazer, me chamo Maurício e seja bem vindo ao meu blog! Eu vejo muitas pessoas querendo migrar pro Linux mas que se perdem com as tantas distros existentes atualmente, por isso, vou compartilhar minha breve experiência com Linux e tentar ajudar quem ainda tem dúvidas.

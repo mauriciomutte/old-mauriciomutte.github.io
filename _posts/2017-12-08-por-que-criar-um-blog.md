@@ -4,7 +4,7 @@ title:  "Por que criar um blog?"
 date:   2017-12-08 16:30:10 -0200
 description: No post busco explicar quais foram os motivos para eu criar um blog
 categories: [Desenvolvimento Pessoal]
-image: /assets/img/por-que-criar-um-blog/main.jpg
+image: /assets/images/por-que-criar-um-blog/main.jpg
 ---
 
 Se você caiu de paraquedas neste post, prazer, me chamo Maurício, no momento tenho 16 anos e este é o primeiro post do meu blog. Para o primeiro post, nada melhor que explicar os motivos da criação e também as tecnologias que eu utilizei para dar vida ao meu primeiro blog.

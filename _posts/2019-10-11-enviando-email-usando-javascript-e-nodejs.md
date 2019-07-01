@@ -4,7 +4,7 @@ title: "Enviando e-mail usando JavaScript e NodeJS"
 date: 2018-10-11 13:00:00 -0200
 description: Navegando pela internet eu descobri como enviar e-mails usando JavaScript e NodeJS de uma maneira super rápida, isso quebrou a minha crença de que mandar e-mail usando uma linguagem de programação é algo difícil.
 categories: [NodeJS]
-image: /assets/img/enviando-email-usando-javascript-e-nodejs/main.jpg
+image: /assets/images/enviando-email-usando-javascript-e-nodejs/main.jpg
 ---
 
 
