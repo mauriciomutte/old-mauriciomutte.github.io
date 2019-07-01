@@ -113,12 +113,12 @@ body {
     border: 2px solid #fff;
     border-radius: 8px;
     color: #fff;
-    display: block;
+    display: table;
     font-weight: 600;
     margin: 20px auto;
-    padding: 3px 0;
-    text-decoration: none;
-    width: 100px; }
+    min-width: 50px;
+    padding: 3px 20px;
+    text-decoration: none; }
   .post-header__img {
     background: no-repeat center center;
     background-size: cover;

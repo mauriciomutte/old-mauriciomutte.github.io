@@ -27,12 +27,12 @@
     border: 2px solid $white;
     border-radius: 8px;
     color: $white;
-    display: block;
+    display: table;
     font-weight: 600;
     margin: 20px auto;
-    padding: 3px 0;
+    min-width: 50px;
+    padding: 3px 20px;
     text-decoration: none;
-    width: 100px;
   }
 
   &__img {
