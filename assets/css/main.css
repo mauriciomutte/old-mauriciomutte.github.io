@@ -35,7 +35,6 @@ body {
     bottom: 0;
     left: 0;
     height: 100%;
-    opacity: .9;
     position: absolute;
     right: 0;
     top: 0;
@@ -44,11 +43,11 @@ body {
     .posts__img::before {
       content: "";
       background-color: #000;
-      background-image: linear-gradient(234deg, #ff8c39 0%, #000 100%);
+      background-image: linear-gradient(234deg, #ff8c39 -50%, #000 100%);
       border-radius: 15px;
       display: block;
       height: 100%;
-      opacity: 0.5;
+      opacity: 0.8;
       width: 100%; }
   .posts__title {
     bottom: 30%;
