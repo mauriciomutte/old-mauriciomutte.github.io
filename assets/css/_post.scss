@@ -1,6 +1,6 @@
 .post-header {
   color: $white;
-  box-shadow: 0 -20px 40px 15px rgba($color: #000000, $alpha: .8);
+  box-shadow: 0 -20px 40px 15px rgba($color: $black, $alpha: .8);
   height: 67vh;
   position: relative;
   text-align: center;
@@ -101,7 +101,7 @@
     border-radius: 5px;
     height: auto;
     width: 100%;
-    box-shadow: 0 0 10px rgba($color: #000000, $alpha: .2)
+    box-shadow: 0 0 10px rgba($color: $black, $alpha: .2)
   }
 
   pre {

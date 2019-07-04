@@ -42,8 +42,8 @@
    
     &::before {
       content: "";
-      background-color: #000;
-      background-image: linear-gradient(234deg,#ff8c39 -50%, #000 100%);
+      background-color: $black;
+      background-image: linear-gradient(234deg,$orange -50%, $black 100%);
       border-radius: 15px;
       display: block;
       height: 100%;
@@ -93,7 +93,7 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 20px;
     display: inline-block;
     color: $white;
-    background-color: #ff8c39;
+    background-color: $orange;
     font-size: 18px;
     font-weight: bold;
     margin: 10px 10px;

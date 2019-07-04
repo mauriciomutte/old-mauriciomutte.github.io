@@ -1,5 +1,9 @@
 // COLORS
 $white: #fff;
+$black: #000;
+$grey: #ccc;
+$navy-blue: #161223;
+$orange: #ff8c39;
 
 // GERAL
 * {
@@ -114,7 +118,7 @@ body {
     }
 
     a {
-      color: #ff8c39;
+      color: $orange;
       font-size: 20px;
       font-weight: bold;
       text-decoration: none;
