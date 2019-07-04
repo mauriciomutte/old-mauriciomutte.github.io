@@ -2,14 +2,14 @@
   <meta charset="UTF-8">
   <meta propery="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}">
-  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{{ site.description }}">
   <meta property="og:image" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#161223">
   <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
-  <title>{{ site.title }}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico">
 
   <!-- LINKS -->
