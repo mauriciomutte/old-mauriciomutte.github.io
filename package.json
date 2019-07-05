@@ -1,0 +1,11 @@
+{
+  "name": "mauriciomutte.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mauriciomutte/mauriciomutte.github.io.git",
+  "author": "Maurício Mutte <litiobr@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
