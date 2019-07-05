@@ -3,6 +3,7 @@ $white: #fff;
 $black: #000;
 $grey: #ccc;
 $navy-blue: #161223;
+$text-color: #333;
 $orange: #ff8c39;
 
 // GERAL
@@ -20,7 +21,7 @@ body {
 
 //HEADER
 .header {
-  background-color: #ccc;
+  background-color: $grey;
   background-image: url('../images/bg.jpg');
   background-size: cover;
   background-position: center;
@@ -105,7 +106,7 @@ body {
 
 // FOOTER
 .footer {
-  background-color: #161223;
+  background-color: $navy-blue;
   color: $white;
   padding: 1em 6em;
   text-align: center;
@@ -130,7 +131,7 @@ body {
     margin: 3em;
 
     &__title {
-      color: #ccc;
+      color: $grey;
       font-size: 18px;
       text-transform: uppercase;
       letter-spacing: 1px;
