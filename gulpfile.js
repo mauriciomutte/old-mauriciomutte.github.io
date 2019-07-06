@@ -17,7 +17,7 @@ const files = {
 function scssTask() {
   return src(files.scssPath)
     .pipe(sass())
-    .pipe(postcss([ cssnano() ]))
+    .pipe(postcss([ autoprefixer(), cssnano() ]))
     .pipe(dest('assets/css'));
 }
 
