@@ -5,6 +5,10 @@
     color: $navy-blue;
     font-size: 34px;
   }
+
+  section {
+    margin: 3em 0;
+  }
 }
 
 .about-me {
@@ -61,5 +65,29 @@
       font-weight: bold;
       margin: 0 15px 0 -1em;
     }
+  }
+}
+
+.about-desktop {
+  &__ul,
+  &__img {
+    display: inline-block;
+    margin: 3em;
+    vertical-align: top;
+  }
+
+  &__img {
+    height: auto;
+    max-width: 500px;
+  }
+
+  &__ul {
+    list-style: none;
+  }
+
+  &__li {
+    font-size: 18px;
+    margin: 1em 0;
+    text-align: left;
   }
 }

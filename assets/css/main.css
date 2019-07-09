@@ -219,6 +219,8 @@ body {
   .about__title {
     color: #161223;
     font-size: 34px; }
+  .about section {
+    margin: 3em 0; }
 
 .about-me {
   margin: 3em 5%; }
@@ -260,6 +262,20 @@ body {
       font-size: 22px;
       font-weight: bold;
       margin: 0 15px 0 -1em; }
+
+.about-desktop__ul, .about-desktop__img {
+  display: inline-block;
+  margin: 3em;
+  vertical-align: top; }
+.about-desktop__img {
+  height: auto;
+  max-width: 500px; }
+.about-desktop__ul {
+  list-style: none; }
+.about-desktop__li {
+  font-size: 18px;
+  margin: 1em 0;
+  text-align: left; }
 
 .header {
   background-color: #ccc;
