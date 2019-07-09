@@ -216,6 +216,8 @@ body {
 
 .about {
   text-align: center; }
+  .about__title {
+    font-size: 34px; }
 
 .about-me {
   margin: 3em 5%; }
@@ -226,7 +228,7 @@ body {
     width: 250px; }
   .about-me__name {
     color: #161223;
-    font-size: 32px;
+    font-size: 28px;
     margin: 1em 0 0; }
   .about-me__text {
     color: #333;
