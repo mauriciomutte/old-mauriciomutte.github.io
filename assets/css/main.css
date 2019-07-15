@@ -286,11 +286,6 @@ body {
   margin: 1em 0;
   text-align: left; }
 
-.category-header {
-  background-color: #161223; }
-  .category-header nav {
-    padding: 1em 0; }
-
 .category__title {
   color: #161223;
   font-size: 58px;
