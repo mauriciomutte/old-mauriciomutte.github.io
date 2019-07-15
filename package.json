@@ -13,5 +13,9 @@
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5"
+  },
+  "scripts": {
+    "start": "bundle exec jekyll server",
+    "sass": "sh sass_watch.sh"
   }
 }
