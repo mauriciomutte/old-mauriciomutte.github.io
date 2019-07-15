@@ -16,6 +16,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.text {
+  color: $text-color;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  word-wrap: break-word;
+  margin: 0 0 1.3em 0;
+}
+
 //IMPORT
 @import 'home', 'blog', 'post', 'about';
 
