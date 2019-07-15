@@ -1,0 +1,17 @@
+---
+layout: category
+title: Javascript
+---
+
+<section class="posts">
+	{% for post in site.categories.Javascript %}
+		<div class="posts__item" style="background-image: url('{{ post.image }}')">
+			<a href="{{ post.url }}" class="posts__link">
+				<div class="posts__img"></div>
+				<h3 class="posts__title">{{ post.title }}</h3>
+				<span class="posts__date">{{ post.date | date_to_string }}</span>
+				<a href="/category/{{ post.categories }}" class="posts__category"><span class="posts__category__item">{{ post.categories }}</span></a>
+			</a>
+		</div>
+	{% endfor %}
+</section>
