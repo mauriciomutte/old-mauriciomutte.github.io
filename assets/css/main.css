@@ -13,6 +13,10 @@ body {
   word-wrap: break-word;
   margin: 0 0 1.3em 0; }
 
+.img-responsive {
+  height: auto;
+  width: 100%; }
+
 .homeBlog {
   margin: 3em 0;
   text-align: center; }
@@ -274,7 +278,6 @@ body {
   margin: 3em;
   vertical-align: top; }
 .about-desktop__img {
-  height: auto;
   max-width: 500px; }
 .about-desktop__ul {
   list-style: none; }

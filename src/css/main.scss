@@ -25,6 +25,11 @@ body {
   margin: 0 0 1.3em 0;
 }
 
+.img-responsive {
+  height: auto;
+  width: 100%;
+}
+
 //IMPORT
 @import 'home', 'blog', 'post', 'about';
 
