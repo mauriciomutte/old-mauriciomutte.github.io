@@ -3,7 +3,7 @@ layout: post
 title:  "Como aprender inglês sozinho?"
 date:   2017-12-15 19:50:10 -0200
 description: As melhores dicas para você aprender inglês sozinho de forma eficiente e efetiva
-categories: [Desenvolvimento Pessoal]
+categories: [Misc]
 image: /assets/images/como-aprender-ingles-sozinho/main.jpg
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Por que criar um blog?"
 date:   2017-12-08 16:30:10 -0200
 description: No post busco explicar quais foram os motivos para eu criar um blog
-categories: [Desenvolvimento Pessoal]
+categories: [Misc]
 image: /assets/images/por-que-criar-um-blog/main.jpg
 ---
 
