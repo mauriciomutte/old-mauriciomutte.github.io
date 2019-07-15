@@ -1,0 +1,18 @@
+.category-header {
+  background-color: $navy-blue;
+
+  nav {
+    padding: 1em 0;
+  }
+}
+
+.category__title {
+  color: $navy-blue;
+  font-size: 58px;
+  margin-top: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+  text-shadow: 4px 0px 0 $orange;
+}

@@ -286,6 +286,21 @@ body {
   margin: 1em 0;
   text-align: left; }
 
+.category-header {
+  background-color: #161223; }
+  .category-header nav {
+    padding: 1em 0; }
+
+.category__title {
+  color: #161223;
+  font-size: 58px;
+  margin-top: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+  text-shadow: 4px 0px 0 #ff8c39; }
+
 .header {
   background-color: #ccc;
   background-image: url("../images/bg.jpg");
