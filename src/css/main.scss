@@ -34,6 +34,14 @@ body {
 @import 'home', 'blog', 'post', 'about', 'category';
 
 //HOME HEADER
+.header {
+  background-color: $navy-blue;
+
+  nav {
+    padding: 1em 0;
+  }
+}
+
 .header-home {
   background-color: $grey;
   background-image: url('../images/bg.jpg');
