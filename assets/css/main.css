@@ -66,12 +66,12 @@ body {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 15px 20px;
     box-sizing: border-box;
     color: #fff;
+    flex: 1 1 300px;
     height: 300px;
     margin: 1em;
     overflow: hidden;
     position: relative;
     transition: .2s;
-    width: 300px;
     z-index: 0; }
     .posts__item:hover {
       box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 20px;
