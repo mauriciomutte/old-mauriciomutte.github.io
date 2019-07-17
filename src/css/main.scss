@@ -30,6 +30,25 @@ body {
   width: 100%;
 }
 
+.btn {
+  display: block;
+  background-color: $navy-blue;
+  box-shadow: 5px 5px 0 rgba($color: $orange, $alpha: .9);
+  color: $white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  text-decoration: none;
+  transition: .1s;
+  margin: 0 auto;
+  max-width: 150px;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0 $orange;
+  background-color: rgba($color: $navy-blue, $alpha: .9);
+}
+
 //IMPORT
 @import 'home', 'blog', 'post', 'about', 'category';
 

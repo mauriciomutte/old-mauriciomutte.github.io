@@ -17,6 +17,23 @@ body {
   height: auto;
   width: 100%; }
 
+.btn {
+  display: block;
+  background-color: #161223;
+  box-shadow: 5px 5px 0 rgba(255, 140, 57, 0.9);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  text-decoration: none;
+  transition: .1s;
+  margin: 0 auto;
+  max-width: 150px; }
+
+.btn:hover {
+  box-shadow: 0 0 0 #ff8c39;
+  background-color: rgba(22, 18, 35, 0.9); }
+
 .homeBlog {
   margin: 3em 0;
   text-align: center; }
